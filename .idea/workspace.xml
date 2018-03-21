@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a47d5c8d-bc04-4d39-bce6-0569d929d05b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/game.py" afterPath="$PROJECT_DIR$/game.py" />
+      <change beforePath="$PROJECT_DIR$/output_file.txt" afterPath="$PROJECT_DIR$/output_file.txt" />
+      <change beforePath="$PROJECT_DIR$/pirate.py" afterPath="$PROJECT_DIR$/pirate.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +32,8 @@
       <file leaf-file-name="game.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="1080">
+              <caret line="72" column="50" lean-forward="false" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="50" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -50,8 +54,8 @@
       <file leaf-file-name="pirate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pirate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+            <state relative-caret-position="255">
+              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -73,9 +77,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/constants.py" />
         <option value="$PROJECT_DIR$/pirate.py" />
         <option value="$PROJECT_DIR$/game.py" />
-        <option value="$PROJECT_DIR$/constants.py" />
       </list>
     </option>
   </component>
@@ -204,18 +208,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pirate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+        <state relative-caret-position="255">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -230,10 +226,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="1080">
+          <caret line="72" column="50" lean-forward="false" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="50" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>

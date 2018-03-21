@@ -47,7 +47,7 @@ class Game():
         """
         :return: Checking if the captain survives thx to his distribution
         """
-        nbr_votes_for_cap = 1
+        nbr_votes_for_cap = 0
         for curt_pirate in self.all_pirates:
             if curt_pirate.vote_captain():
                 nbr_votes_for_cap += 1
@@ -67,13 +67,16 @@ class Game():
         if self.is_error:
             text_file.write("Error in the game: %s" % self.msg_error)
         else:
-            text_file.write(self.msg_error + "\n")
+            if not self.captain_survival():
+                text_file.write(self.msg_error + "\n")
+            else:
+                text_file.write(self.msg_error + "\n")
 
-            for curt_pirate in self.all_pirates:
-                text_file.write("Pirate number: "
-                                + str(curt_pirate.order)
-                                + " has a reward of "
-                                + str(curt_pirate.reward)
-                                + "\n")
+                for curt_pirate in self.all_pirates:
+                    text_file.write("Pirate number: "
+                                    + str(curt_pirate.order)
+                                    + " has a reward of "
+                                    + str(curt_pirate.reward)
+                                    + "\n")
 
         text_file.close()

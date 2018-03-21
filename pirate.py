@@ -15,4 +15,4 @@ class Pirate():
         """
         :return: is the pirate voting for the captain's survival
         """
-        return self.reward > self.last_step_reward
+        return self.reward >= self.last_step_reward

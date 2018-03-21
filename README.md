@@ -13,12 +13,12 @@ How to solve the pirates treasure riddle?
 4/ so far so long
 
 ## Solution
-The captain keeps for himself $100-\lfloor \frac{n-1}{2} \rfloor$ and gives 1 coin to every odd pirate (the 3th, the 5th, etc.)
+The captain keeps for himself 100-floor((n-1)/2) and gives 1 coin to every odd pirate (the 3th, the 5th, etc.)
 Each pirate with a coin will vote for the captain to survive because if the don’t, with the new captain having the same tactic, they will be even pirates and get no coin.
 
 ## Optimality ?
 This tactic is the optimal one for the captain because he cannot give less.
-This is simple, the vote is democratic so at least 50% of the pirates has to vote for the captain’s survival. If the captain gives less than $\lfloor \frac{n-1}{2} \rfloor$ coins, less than 50% of the pirates will have a reward. With no current reward they do not have interest to vote for the captain survival.
+This is simple, the vote is democratic so at least 50% of the pirates has to vote for the captain’s survival. If the captain gives less than floor((n-1)/2) coins, less than 50% of the pirates will have a reward. With no current reward they do not have interest to vote for the captain survival.
 
 ## Code
 Giving a number of pirates and a number of coins. The code will allocate the coins to every pirate.
