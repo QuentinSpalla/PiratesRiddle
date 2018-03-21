@@ -1,0 +1,6 @@
+# GAME
+NBR_PIRATES = 57
+NBR_COINS = 100
+
+# OTHER
+OUTPUT_FILE = 'output_file.txt'
